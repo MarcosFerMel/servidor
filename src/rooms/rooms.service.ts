@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CreateRoomDto } from './dto/create-room.dto';
 import { UpdateRoomDto } from './dto/update-room.dto';
 import { Room } from './entities/room.entity';
-import { getRoomsCollection } from 'src/core/schemas/rooms.schema';
+import { getRoomsCollection } from '../core/schemas/rooms.schema';
 
 @Injectable()
 export class RoomsService {
